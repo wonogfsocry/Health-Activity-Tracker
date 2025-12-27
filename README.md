@@ -1,4 +1,4 @@
-# Health & Activity Tracker (01157025_final)
+# Health & Activity Tracker
 
 這是一個基於 SwiftUI 開發的全方位健康活動追蹤 iOS App。使用者可以記錄日常運動、飲水與睡眠數據，設定個人目標，並透過圖表分析每週進度。此外，App 結合了即時天氣資訊與貼心的使用提示 (TipKit)，提供良好的使用者體驗。
 
