@@ -2,6 +2,12 @@
 
 這是一個基於 SwiftUI 開發的全方位健康活動追蹤 iOS App。使用者可以記錄日常運動、飲水與睡眠數據，設定個人目標，並透過圖表分析每週進度。此外，App 結合了即時天氣資訊與貼心的使用提示 (TipKit)，提供良好的使用者體驗。
 
+## 📱 介面展示 (App Preview)
+
+<p align="center">
+  <img src="health_app_screen.gif" alt="Login & Home" width="300" />
+</p>
+
 ## ✨ 主要功能 (Features)
 
 ### 1. 使用者管理系統 (User Management)
@@ -48,7 +54,7 @@
 
 ## 📱 系統需求 (Requirements)
 
-* **iOS 版本**：iOS 18.0 
+* **iOS 版本**：iOS 18.0 (根據專案設定)
 * **Xcode 版本**：Xcode 16.0 或以上
 
 ## 🚀 安裝與執行 (Installation)
@@ -66,28 +72,12 @@
 
 ## 📂 專案結構 (Project Structure)
 
-* `Model/`:
-    * `User.swift`: 使用者資料模型。
-    * `ActivityRecord.swift`: 活動記錄模型。
-    * `Goal.swift`: 目標設定模型。
-    * `WeatherModel.swift`: 天氣 API 資料結構與 ViewModel。
-* `View/`:
-    * `LoginView.swift` / `RegisterView.swift`: 認證相關頁面。
-    * `MaintabView.swift`: 主畫面 Tab 架構。
-    * `ActivityListView.swift`: 活動列表與新增頁面。
-    * `AnalysisView.swift`: 圖表分析頁面。
-    * `GoalView.swift`: 目標設定與進度頁面。
-    * `UserView.swift`: 個人設定頁面。
-* `Utils/`:
-    * `Tip.swift`: 定義 TipKit 的提示內容。
-
-## ⚠️ 注意事項 (Notes)
-
-* **API Key**：目前的 `WeatherViewModel.swift` 內含一組測試用的 OpenWeatherMap API Key。若要在正式環境使用，請替換為您個人的 API Key 並妥善保管。
-* **SwiftData**：由於使用了 SwiftData，此專案僅支援 iOS 17 以上的設備。
+* `Model/`: `User.swift`, `ActivityRecord.swift`, `Goal.swift`, `WeatherModel.swift`
+* `View/`: `LoginView.swift`, `MaintabView.swift`, `ActivityListView.swift`, `AnalysisView.swift`, `GoalView.swift`, `UserView.swift`
+* `Utils/`: `Tip.swift`
 
 ## 👤 作者 (Author)
 
-* **Name**: 楊浤立
 * **Student ID**: 01157025
 * **Created Date**: 2024/11/28
+* **Medium Blog**: [點擊閱讀開發心得](https://medium.com/%E6%B5%B7%E5%A4%A7-ios-app-%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/ios%E6%87%89%E7%94%A8%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC%E5%85%A5%E9%96%80-04-swiftui-ios-app-%E5%85%A5%E9%96%80%E8%AA%B2%E7%A8%8B%E6%9C%9F%E6%9C%AB%E5%B0%88%E9%A1%8C%E4%B8%80-crud-%E7%B4%80%E9%8C%84-app-4b5af097cefa) ✍️
